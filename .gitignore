@@ -1,0 +1,30 @@
+# See http://help.github.com/ignore-files/
+
+# Folders
+.egg-info
+.idea
+.pytest_cache
+.mypy_cache
+**/__pycache__/
+build
+dist
+tests/_pytest
+tests/_mypy
+venv
+#data
+
+# Files
+*.code-workspace
+*.coverage
+*.egg-info
+*.env
+*.gitconfig.local
+*.installed.cfg
+*.pyo
+*.pyc
+/tests/script.bat
+/tests/script.sh
+
+# Dont ignore
+!.gitconfig
+!.gitignore
