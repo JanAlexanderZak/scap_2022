@@ -6,7 +6,7 @@ import tensorflow as tf
 from tensorflow import keras
 
 
-def build_model(_input_shape: int) -> keras.engine.sequential.Sequential:
+def build_model(_input_shape: int) -> keras.Sequential:
     """ Vanilla tf.Keras model."""
     model = keras.Sequential([
         keras.layers.Dense(128, activation=tf.nn.relu, input_shape=[_input_shape],),
